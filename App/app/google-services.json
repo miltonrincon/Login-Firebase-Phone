@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "243166225684",
+    "firebase_url": "https://login-phone-4fda2.firebaseio.com",
+    "project_id": "login-phone-4fda2",
+    "storage_bucket": "login-phone-4fda2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243166225684:android:5b7cfe9c271e76e9",
+        "android_client_info": {
+          "package_name": "io.cityofeden.phonefirebaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243166225684-bb26gi9p9ejf7itjgjv82dt7hubj98lv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.cityofeden.phonefirebaselogin",
+            "certificate_hash": "f47378b7735529493904f3754e49912abdc667e4"
+          }
+        },
+        {
+          "client_id": "243166225684-v6f0jvrk9c22mk874gp4e6l5prj21k1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl1XEJHIF08XaNyg3qK00bwKyzOVXs7FQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243166225684-v6f0jvrk9c22mk874gp4e6l5prj21k1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
