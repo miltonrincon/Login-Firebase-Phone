@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.support.design.widget.Snackbar;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -109,6 +110,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 //     detect the incoming verification SMS and perform verification without
                 //     user action.
                 Log.d(TAG, "onVerificationCompleted:" + credential);
+                Toast.makeText(LoginActivity.this, "Ya estas logueado", Toast.LENGTH_SHORT).show();
+
                 // [START_EXCLUDE silent]
                 mVerificationInProgress = false;
                 // [END_EXCLUDE]
@@ -331,6 +334,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 break;
             case STATE_SIGNIN_SUCCESS:
                 // Np-op, handled by sign-in check
+                Toast.makeText(this, "Yas estas logueado2", Toast.LENGTH_SHORT).show();
                 break;
         }
 
